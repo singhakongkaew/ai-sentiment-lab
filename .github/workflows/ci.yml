@@ -25,4 +25,4 @@ jobs:
       run: |
         docker run -d -p 8501:8501 --name test-app ai-sentiment-lab:test
         sleep 10
-        docker pss
+        docker ps
